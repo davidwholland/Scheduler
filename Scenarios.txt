@@ -1,0 +1,12 @@
+s1: select active appointment slots
+ - select working hours (config screen?)
+ - select all working hours for particular day
+ - select specific hours for particular day
+
+s2: set up an appointment (customer)
+ - list available dates and times
+ - select date/time slot
+ - confirm selection (confirmation screen?)
+
+s3: list confirmed appointments (owner)
+ - 

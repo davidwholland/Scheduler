@@ -8,7 +8,8 @@ namespace Scheduler.Models
     public class Person
     {
         public int PersonId { get; set; }
-        public string Name { get; set; }
+        public string FirstName { get; set; }
+        public string LastName { get; set; }
         public int TypeId { get; set; }
         public string Phone { get; set; }
         public string Email { get; set; }

@@ -14,5 +14,7 @@ namespace Scheduler.Models
 
         public DbSet<Event> Events { get; set; }
         public DbSet<Person> Persons { get; set; }
+        public DbSet<PersonLog> PersonLogs { get; set; }
+        public DbSet<EventLog> EventLogs { get; set; }
     }
 }

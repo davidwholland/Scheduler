@@ -13,7 +13,6 @@ namespace Scheduler.Models
         public string LastName { get; set; }
         public DateTime StartDate { get; set; }
         public DateTime EndDate { get; set; }
-        public int ScheduledBy { get; set; }
         public int CreatedBy { get; set; }
         public DateTime CreatedOn { get; set; }
     }
