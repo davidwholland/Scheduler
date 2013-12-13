@@ -10,3 +10,4 @@ s2: set up an appointment (customer)
 
 s3: list confirmed appointments (owner)
  - 
+s2: 
