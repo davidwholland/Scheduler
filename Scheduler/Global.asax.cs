@@ -6,6 +6,8 @@ using System.Web.Http;
 using System.Web.Mvc;
 using System.Web.Optimization;
 using System.Web.Routing;
+using System.Data.Entity;
+using Scheduler.Models;
 
 namespace Scheduler
 {
@@ -23,6 +25,8 @@ namespace Scheduler
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
             AuthConfig.RegisterAuth();
+
+            //Database.SetInitializer<Scheduler>(new SchedulerInitializer());
         }
     }
 }
