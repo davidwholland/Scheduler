@@ -15,17 +15,17 @@ namespace Scheduler.Controllers
         {
             ViewBag.Message = "Modify this template to jump-start your ASP.NET MVC application.";
 
-            //var anEvent = new Event()
-            //    {
-            //        PersonId = 1,
-            //        StartDate = new DateTime(2013, 12, 18, 13, 0, 0),
-            //        EndDate = new DateTime(2013, 12, 18, 14, 0, 0),
-            //        CreatedBy = 1,
-            //        CreatedOn = DateTime.Now
-            //    };
+            var anEvent = new Event()
+                {
+                    PersonId = 1,
+                    StartDate = new DateTime(2013, 12, 18, 13, 0, 0),
+                    EndDate = new DateTime(2013, 12, 18, 14, 0, 0),
+                    CreatedBy = 1,
+                    CreatedOn = DateTime.Now
+                };
 
-            //_db.Events.Add(anEvent);
-            //_db.SaveChanges();
+            _db.Events.Add(anEvent);
+            _db.SaveChanges();
 
             return View();
         }
