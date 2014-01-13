@@ -1,0 +1,11 @@
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+
+	<Target Name="Debug">
+		<MSBuild Projects="scheduler.sln" Properties="Configuration=Debug" />
+	</Target>
+
+	<Target Name="Release">
+		<MSBuild Projects="scheduler.sln" Properties="Configuration=Release" />
+	</Target>	
+
+</Project>
